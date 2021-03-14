@@ -1,1 +1,3 @@
-web: gunicorn questiontime.wsgi --log-file -
+web: gunicorn QuestionTime.wsgi:Application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
