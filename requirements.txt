@@ -1,3 +1,4 @@
+appdirs==1.4.4
 asgiref==3.3.1
 certifi==2020.12.5
 cffi==1.14.5
@@ -7,6 +8,7 @@ coreapi==2.3.3
 coreschema==0.0.4
 cryptography==3.4.6
 defusedxml==0.7.1
+distlib==0.3.1
 Django==3.1.7
 django-allauth==0.44.0
 django-crispy-forms==1.11.1
@@ -15,6 +17,7 @@ django-rest-auth==0.9.5
 django-webpack-loader==0.7.0
 djangorestframework==3.12.2
 drf-yasg==1.20.0
+filelock==3.0.12
 idna==2.10
 inflection==0.5.1
 itypes==1.2.0
@@ -22,6 +25,7 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 oauthlib==3.1.0
 packaging==20.9
+pipenv==2020.11.15
 psycopg2-binary==2.8.6
 pycparser==2.20
 PyJWT==2.0.1
@@ -36,4 +40,6 @@ six==1.15.0
 sqlparse==0.4.1
 uritemplate==3.0.1
 urllib3==1.26.3
+virtualenv==20.4.2
+virtualenv-clone==0.5.4
 whitenoise==5.2.0
