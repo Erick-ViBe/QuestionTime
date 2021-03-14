@@ -24,7 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'xkuw_2f2=4)4)7@f0-*q2o2el^xjv4-k%3r^dc4xys7rs-2ff4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['questiontimevibe.herokuapp.com', '127.0.0.1']
 
